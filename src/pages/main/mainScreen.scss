@@ -1,0 +1,75 @@
+.main-container {
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  .top-container {
+    background: url("../../assets/images/pattern-bg-desktop.png");
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .top-title {
+      color: white;
+      font-size: 30px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    .top-search {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      .top-input {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        height: 40px;
+        width: 250px;
+      }
+      .top-icon {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        width: 44px;
+        height: 44px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+      }
+    }
+  }
+  .mid-container {
+    width: 80%;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    position: absolute;
+    top: 180px;
+    z-index: 1000;
+    border-radius: 12px;
+    left: 10%;
+    padding: 16px;
+    .mid-item {
+      width: 24%;
+      border-radius: 12px;
+      //   position: absolute;
+      //   top: 20px;
+      //   z-index: 1000;
+      .item-title {
+        color: grey;
+        font-weight: bold;
+      }
+      .item-value {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .bot-container {
+    width: 100%;
+  }
+}
